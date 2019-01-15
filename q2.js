@@ -31,6 +31,13 @@ let meta=function(version,channel,keyField){
     })
 }
 
+// meta.version = '111'
+// meta.channel= 'A'
+// meta.keyField= '1'
+// console.log(meta.version)
+// console.log(meta.channel)
+// console.log(meta.keyField)
+
 let arr=[
     { version:111, channel:'A', keyField:1},
     { version:112, channel:'B', keyField:2},
@@ -53,11 +60,6 @@ let obj11 =obj.getKeyFieldsMethod(arr);
 console.log(obj11);
 
 
-// meta.version = '111'
-// meta.channel= 'A'
-// meta.keyField= '1'
-// console.log(meta.version)
-// console.log(meta.channel)
-// console.log(meta.keyField)
+
 
 
